@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Map Initialization ---
     const map = L.map('map', {
         // zoomControl: false // Optional: disable zoom controls
-    }).setView([51.505, -0.09], 13);
+    }).setView([31.8928, 34.8113], 13);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
